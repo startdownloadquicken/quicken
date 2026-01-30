@@ -4,8 +4,12 @@ release = '1.0'
 
 extensions = []
 
-templates_path = ['_templates']
+templates_path = []
 exclude_patterns = []
 
-html_theme = 'sphinx_rtd_theme'
+# 🔥 CUSTOM WEBSITE THEME
+html_theme = 'mytheme'
+html_theme_path = ['_theme']
+
+# Static files
 html_static_path = ['_static']
