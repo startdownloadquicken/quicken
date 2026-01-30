@@ -9,7 +9,8 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 
+# Normal Sphinx static (CSS/JS for Sphinx theme, can be empty)
 html_static_path = ['_static']
 
-# 🔥 ADVANCED: Serve full HTML site from _static as root
-html_extra_path = ['_static']
+# 🔥 ADVANCED: Copy full website from /site to HTML ROOT
+html_extra_path = ['site']
