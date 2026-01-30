@@ -2,7 +2,6 @@
 
    <meta http-equiv="refresh" content="0; url=index.html">
    <script>
-     window.location.href = "index.html";
+     window.location.replace("index.html");
    </script>
 
-   <p>Loading website...</p>
