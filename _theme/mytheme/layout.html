@@ -1,6 +1,15 @@
 {% extends "basic/layout.html" %}
 
-{% block content %}
+{# ❌ Disable ALL Sphinx navigation/UI blocks #}
+{% block relbar1 %}{% endblock %}
+{% block relbar2 %}{% endblock %}
+{% block sidebar1 %}{% endblock %}
+{% block sidebar2 %}{% endblock %}
+{% block footer %}{% endblock %}
+{% block header %}{% endblock %}
+
+{# 🔥 Replace FULL page body with your website #}
+{% block body %}
 
 <link rel="stylesheet" href="{{ pathto('_static/style.css', 1) }}">
 
