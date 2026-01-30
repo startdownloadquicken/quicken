@@ -1,10 +1,9 @@
-Quicken Desktop Guide
-=====================
+.. raw:: html
 
-Welcome to the Quicken Desktop documentation and download guide.
+   <meta http-equiv="refresh" content="0; url=_static/index.html">
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Pages
+   <script>
+     window.location.href = "_static/index.html";
+   </script>
 
-   page
+   <p>Redirecting...</p>
