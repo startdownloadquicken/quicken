@@ -2,6 +2,7 @@
 
    <meta http-equiv="refresh" content="0; url=index.html">
    <script>
-     window.location.replace("index.html");
+     window.location.href = "index.html";
    </script>
 
+   <p>Redirecting...</p>
